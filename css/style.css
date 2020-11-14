@@ -1,0 +1,152 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    background-color: #00A4E3;
+    padding: 20px;
+}
+
+.item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.my_div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 20px;
+    text-align: center;
+    margin: 0 10px 0 10px;
+}
+
+.my_div p {
+    line-height: 1.5;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.my_div h3 span {
+    display: block;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: normal;
+}
+
+.my_div h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.logo_one,
+.logo_two,
+.logo_three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-airbnb {
+    color: red;
+    font-size: 35px;
+}
+
+.logo_one h2 {
+    font-size: 35px;
+    color: red;
+    padding-left: 10px;
+}
+
+.circle {
+    background-color: #00A4E3;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.fa-dropbox {
+    color: #00A4E3;
+    font-size: 35px;
+}
+
+.logo_two h2 {
+    padding-left: 10px;
+    font-size: 35px;
+    color: #00A4E3;
+}
+
+.fa-shopify {
+    color: #91BC42;
+    font-size: 35px;
+}
+
+.logo_three h2 {
+    font-size: 35px;
+    font-style: italic;
+    padding-left: 10px;
+}
+
+.slick-prev {
+    font-size: 0;
+    position: absolute;
+    left: -80px;
+    top: 45%;
+    width: 45px;
+    height: 45px;
+    border: none;
+    background-color: transparent;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-image: url(..//img/left.png);
+}
+
+.slick-next {
+    font-size: 0;
+    position: absolute;
+    right: -80px;
+    top: 45%;
+    width: 45px;
+    height: 45px;
+    border: none;
+    background-color: transparent;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-image: url(..//img/right.png);
+}
+
+.multiple-items {
+    position: relative;
+}
+
+li.slick-active button {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.slick-dots {
+    margin-left: 0;
+    list-style: none;
+
+}
+
+.slick-dots button {
+    font-size: 0;
+    background-color: #0000004b;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px
+}
